@@ -1,0 +1,25 @@
+/*Color palette adapted from: http://www.colourlovers.com/palette/147921/Blue_Kitten*/
+
+table{
+  text-align: left;
+}
+tr{
+  width: auto;
+}
+tr:nth-child(2n+1){
+  background-color: rgb(37,3,82);
+  color: rgb(253,110,138);
+}
+tr:nth-child(2n){
+  background-color: rgb(236,229,154);
+  color: rgb(44,59,99);
+}
+th{
+  text-decoration: underline;
+  text-decoration: overline;
+  font-weight: bolder;
+}
+td:hover{
+  background-color: rgb(132,141,130);
+  color: rgb(37,3,82);
+}
